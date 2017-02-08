@@ -6,7 +6,7 @@ export default class TextCount extends Component {
     const name = this.props.text;
     return (
       <div>
-        <span style={{color: 'red'}}>{count}</span>
+        <span style={{color: 'orange'}}>{count}</span>
         <span>{name}</span>
       </div>
     );
