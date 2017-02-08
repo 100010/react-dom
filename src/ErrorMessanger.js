@@ -10,7 +10,7 @@ export default class ErrorMessanger extends Component {
     }
     else {
       return (
-        <span style={{ color: 'blue' }}> your message is only {140 - letter_count} !!</span>
+        <span style={{ color: 'blue' }}> your message is remaining {140 - letter_count} !!</span>
       );
     }
   }
